@@ -1,0 +1,16 @@
+.content{
+
+}
+
+@media all and (max-width: 600px){
+    .content{
+        background: burlywood;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        border:1px solid black;
+        box-sizing: border-box;
+    }
+}

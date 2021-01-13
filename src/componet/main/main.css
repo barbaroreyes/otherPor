@@ -1,8 +1,13 @@
 .content{
-
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 400px){
     .content{
         background: burlywood;
         width: 93%;

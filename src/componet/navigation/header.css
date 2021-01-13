@@ -2,15 +2,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    border: 1px solid black;
-    background: rgb(188, 228, 228);
-    /* justify-content: flex-start; */
-    /* width: 93%; */
-    /* border:  1px solid black;
-    background: chocolate;
-    color: #ffff;  */
-    /* padding: 30px;
-    margin: 20px; */
+    background: rgb(188, 228, 228);   
 } 
 .box{
     display: flex;
@@ -41,39 +33,21 @@ a{
     header{
         background: rgb(238, 129, 20);
         flex-direction: column;
-       margin: 0 auto;  
-       padding: 0;
+        margin: 0 auto;  
+        padding: 0;
     }
     .box{
         margin: 2px;
         align-items: center;
         box-sizing: border-box;
     }.uls{
-       flex-direction: column; 
-       align-items: center;
+        flex-direction: column; 
+       
     }
-    li a{
+    li {
+        
         text-align: center;
-    }
-    
-   
+        margin: 3.5px;
+        
+    } 
 }
-/* @media all and (max-width: 600px) {  */
-    /* header{
-    display: flex; */
-    
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    border:1px solid black;
-    box-sizing: border-box;
-    color: black; */
-   
-
-  /* }  */
-  /* @media all and (max-width: 600px){
-      .navi{
-          
-      }
-  } */
